@@ -27,4 +27,11 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+References
+=================
+Header image courtesy of:
+https://smallbusiness.ng/how-to-hire-employees/
+
+Tab reference HTML & JS:
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_full_page_tabs
 
