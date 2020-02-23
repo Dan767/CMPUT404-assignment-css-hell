@@ -1,3 +1,9 @@
+Part 1:
+
+Modifications done by removing the "<style>" section of CSS from the HTML and adding in 
+  <link rel="stylesheet" href="styles.css">
+  into the head section of the html.  All CSS changes then needed to be made in the styles css file.
+
 Assignment: CSS Hell
 ====================
 
