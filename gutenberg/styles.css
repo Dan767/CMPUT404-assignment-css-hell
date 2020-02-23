@@ -7,7 +7,7 @@ BODY { color: Black;
        margin-right: 10%;
        margin-left: 10%;
        font-size: medium;
-       font-family: "Apple Chancery",cursive;
+       font-family: cursive;
        text-align: justify }
 .header {
     font-size: large;
@@ -15,10 +15,11 @@ BODY { color: Black;
 }
 
 PRE {  font-size: medium;
-       font-family: "Apple Chancery",cursive; }
+       font-family: cursive; }
 
 P {text-indent: 4%;
     background-color: lightyellow;
+    font-family:cursive;
 }
 
 P.noindent {text-indent: 0% }
