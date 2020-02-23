@@ -1,16 +1,38 @@
-body {
-    background-color: papayawhip;
-    font-family: "Brush Script MT", serif;
-}
+<STYLE TYPE="text/css">
+
+BODY { color: Black;
+       background: Papayawhip;
+       margin-right: 10%;
+       margin-left: 10%;
+       font-size: medium;
+       font-family: "Brush Script MT", serif;
+       text-align: justify }
 .header {
     font-size: large;
     font-family: "Times New Roman", serif;
 }
-P {
+
+PRE {  font-size: medium;
+       font-family: "Times New Roman", serif }
+
+P {text-indent: 4%;
     background-color: papayawhip;
-    font-family: "Brush Script MT", serif;
-}
+    font-family: "Brush Script MT", serif}
+
+P.noindent {text-indent: 0% }
+
+P.poem {text-indent: 0%;
+        margin-left: 10%;
+        font-size: small }
+
+P.finis { text-align: center ;
+          text-indent: 0% ;
+          margin-left: 0% ;
+          margin-right: 0% }
+
 img {
     border: 1px solid #ddd;
     border-radius: 50%;
 }
+
+</STYLE>
