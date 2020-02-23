@@ -1,0 +1,16 @@
+body {
+    background-color: papayawhip;
+    font-family: "Brush Script MT", serif;
+}
+.header {
+    font-size: large;
+    font-family: "Times New Roman", serif;
+}
+P {
+    background-color: papayawhip;
+    font-family: "Brush Script MT", serif;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
