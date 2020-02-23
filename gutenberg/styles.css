@@ -7,19 +7,19 @@ BODY { color: Black;
        margin-right: 10%;
        margin-left: 10%;
        font-size: medium;
-       font-family: "Brush Script MT", serif;
+       font-family: "Apple Chancery",cursive;
        text-align: justify }
 .header {
     font-size: large;
-    font-family: "Times New Roman", serif;
+    font-family: Times New Roman, serif;
 }
 
 PRE {  font-size: medium;
-       font-family: "Brush Script MT", serif }
+       font-family: "Apple Chancery",cursive; }
 
 P {text-indent: 4%;
-    background-color: papayawhip;
-    font-family: "Brush Script MT", serif}
+    background-color: lightyellow;
+}
 
 P.noindent {text-indent: 0% }
 
