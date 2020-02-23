@@ -1,7 +1,9 @@
 <STYLE TYPE="text/css">
 
+HTML {background: lightyellow}
+
 BODY { color: Black;
-       background: Papayawhip;
+       background: lightyellow;
        margin-right: 10%;
        margin-left: 10%;
        font-size: medium;
@@ -13,7 +15,7 @@ BODY { color: Black;
 }
 
 PRE {  font-size: medium;
-       font-family: "Times New Roman", serif }
+       font-family: "Brush Script MT", serif }
 
 P {text-indent: 4%;
     background-color: papayawhip;
