@@ -45,39 +45,53 @@ img.topimage {
   height: 100%;
 }
 
-#Home {background-color: white;}
-#News {background-color: white;}
-#Contact {background-color: white;}
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  right: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+  
 #About {background-color: white;}
+#History {background-color: white;}
+#Offer {background-color: white;}
+#Contact {background-color: white;}
 </style>
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('Home', this, 'white')" id="defaultOpen">Home</button>
-<button class="tablink" onclick="openPage('News', this, 'white')">News</button>
-<button class="tablink" onclick="openPage('Contact', this, 'white')">Contact</button>
-<button class="tablink" onclick="openPage('About', this, 'white')">About</button>
+<button class="tablink" onclick="openPage('About', this, 'white')" id="defaultOpen">About Daniel</button>
+<button class="tablink" onclick="openPage('History', this, 'white')">History</button>
+<button class="tablink" onclick="openPage('Offer', this, 'white')">What I Offer</button>
+<button class="tablink" onclick="openPage('Contact', this, 'white')">Contact Me</button>
 
-<div id="Home" class="tabcontent">
-  <h3>Home</h3>
+<div id="About" class="tabcontent">
+  <h3>About Daniel</h3>
+  <div class="sidenav">
+    <h3>Highlights</h3>
+  </div>
   <img class="topimage" src="top.png" alt="Top">
   <p>Home is where the heart is..</p>
 </div>
 
-<div id="News" class="tabcontent">
-  <h3>News</h3>
+<div id="History" class="tabcontent">
+  <h3>History</h3>
   <img class="topimage" src="top.png" alt="Top">
   <p>Some news this fine day!</p> 
 </div>
 
-<div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
+<div id="Offer" class="tabcontent">
+  <h3>What I Offer</h3>
   <img class="topimage" src="top.png" alt="Top">
   <p>Get in touch, or swing by for a cup of coffee.</p>
 </div>
 
-<div id="About" class="tabcontent">
-  <h3>About</h3>
+<div id="Contact" class="tabcontent">
+  <h3>Contact Me</h3>
   <img class="topimage" src="top.png" alt="Top">
   <p>Who we are and what we do.</p>
 </div>
