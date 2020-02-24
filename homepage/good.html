@@ -15,8 +15,9 @@ body, html {
 img.topimage {
   position: fixed;
   top: 0px;
-  height: 100px;
+  height: 200px;
   width:100%;
+  z-index:1000;
   }
 
 /* Style tab links */
@@ -51,7 +52,7 @@ img.topimage {
 </style>
 </head>
 <body>
-<img class="topimage" src="top.png" alt="Top">
+
 <button class="tablink" onclick="openPage('Home', this, 'white')" id="defaultOpen">Home</button>
 <button class="tablink" onclick="openPage('News', this, 'white')">News</button>
 <button class="tablink" onclick="openPage('Contact', this, 'white')">Contact</button>
@@ -59,6 +60,7 @@ img.topimage {
 
 <div id="Home" class="tabcontent">
   <h3>Home</h3>
+  <img class="topimage" src="top.png" alt="Top">
   <p>Home is where the heart is..</p>
 </div>
 
